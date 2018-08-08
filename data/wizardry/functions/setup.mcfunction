@@ -1,0 +1,9 @@
+scoreboard players set @a FireEssence 0
+scoreboard players set @a WaterEssence 0
+scoreboard players set @a EarthEssence 0
+scoreboard players set @a AirEssence 0
+scoreboard players set @a ElectricEssence 0
+scoreboard players set @a LifeEssence 0
+scoreboard players set @a IceEssence 0
+scoreboard players set @a DeathEssence 0
+scoreboard players set @a SpaceEssence 0

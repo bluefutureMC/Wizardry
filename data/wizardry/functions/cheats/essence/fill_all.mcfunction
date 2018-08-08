@@ -1,0 +1,9 @@
+scoreboard players set @s FireEssence 50
+scoreboard players set @s WaterEssence 50
+scoreboard players set @s EarthEssence 50
+scoreboard players set @s AirEssence 50
+scoreboard players set @s IceEssence 50
+scoreboard players set @s LifeEssence 50
+scoreboard players set @s ElectricEssence 50
+scoreboard players set @s DeathEssence 50
+scoreboard players set @s SpaceEssence 50

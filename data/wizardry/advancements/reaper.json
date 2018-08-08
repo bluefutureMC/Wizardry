@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Death Is Waiting..."
+        },
+        "description": {
+            "text": "Use your magic spells to shoot the reaper beam"
+        },
+        "icon": {
+            "item": "minecraft:diamond_hoe",
+            "nbt": "{Damage:1546,Unbreakable:1b}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "spell_heavy_death": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "spell_heavy_death"
+        ]
+    ],
+    "parent": "wizardry:wand"
+}

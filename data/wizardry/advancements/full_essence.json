@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Full Essence"
+        },
+        "description": {
+            "text": "Fill all essence to 50"
+        },
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:leaping\"}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "filled_essence": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "filled_essence"
+        ]
+    ],
+    "rewards": {
+        "experience": 20
+    },
+    "parent": "wizardry:wand"
+}

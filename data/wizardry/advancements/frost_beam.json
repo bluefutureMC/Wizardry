@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Honey? Where is my super suit?"
+        },
+        "description": {
+            "text": "Use your magic spells to shoot 1000 frost beams"
+        },
+        "icon": {
+            "item": "minecraft:diamond_hoe",
+            "nbt": "{Damage:1543,Unbreakable:1b}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "spell_ice": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "spell_ice"
+        ]
+    ],
+    "parent": "wizardry:ice_spikes"
+}

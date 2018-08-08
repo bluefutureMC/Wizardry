@@ -1,0 +1,17 @@
+#Leash handler
+setblock ~ ~ ~ minecraft:polished_andesite
+summon minecraft:leash_knot ~ ~ ~ {Tags:[essence-absorber-leash]}
+
+#Block handler
+execute at @e[type=leash_knot,tag=essence-absorber-leash] run summon minecraft:armor_stand ~ ~.5 ~ {Tags:[essence-absorber,wizardry-entity],ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Damage:1561,Unbreakable:1b}}],NoGravity:1b,Invisible:1b,Marker:1b,Small:1b}
+execute at @e[type=leash_knot,tag=essence-absorber-leash] positioned ~ ~.5 ~ run scoreboard players set @e[tag=essence-absorber,type=minecraft:armor_stand,limit=1,distance=..1,nbt={ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Damage:1561,Unbreakable:1b}}],NoGravity:1b,Invisible:1b,Marker:1b}] FireEssence 0
+execute at @e[type=leash_knot,tag=essence-absorber-leash] positioned ~ ~.5 ~ run scoreboard players set @e[tag=essence-absorber,type=minecraft:armor_stand,limit=1,distance=..1,nbt={ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Damage:1561,Unbreakable:1b}}],NoGravity:1b,Invisible:1b,Marker:1b}] WaterEssence 0
+execute at @e[type=leash_knot,tag=essence-absorber-leash] positioned ~ ~.5 ~ run scoreboard players set @e[tag=essence-absorber,type=minecraft:armor_stand,limit=1,distance=..1,nbt={ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Damage:1561,Unbreakable:1b}}],NoGravity:1b,Invisible:1b,Marker:1b}] EarthEssence 0
+execute at @e[type=leash_knot,tag=essence-absorber-leash] positioned ~ ~.5 ~ run scoreboard players set @e[tag=essence-absorber,type=minecraft:armor_stand,limit=1,distance=..1,nbt={ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Damage:1561,Unbreakable:1b}}],NoGravity:1b,Invisible:1b,Marker:1b}] AirEssence 0
+execute at @e[type=leash_knot,tag=essence-absorber-leash] positioned ~ ~.5 ~ run scoreboard players set @e[tag=essence-absorber,type=minecraft:armor_stand,limit=1,distance=..1,nbt={ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Damage:1561,Unbreakable:1b}}],NoGravity:1b,Invisible:1b,Marker:1b}] IceEssence 0
+execute at @e[type=leash_knot,tag=essence-absorber-leash] positioned ~ ~.5 ~ run scoreboard players set @e[tag=essence-absorber,type=minecraft:armor_stand,limit=1,distance=..1,nbt={ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Damage:1561,Unbreakable:1b}}],NoGravity:1b,Invisible:1b,Marker:1b}] LifeEssence 0
+execute at @e[type=leash_knot,tag=essence-absorber-leash] positioned ~ ~.5 ~ run scoreboard players set @e[tag=essence-absorber,type=minecraft:armor_stand,limit=1,distance=..1,nbt={ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Damage:1561,Unbreakable:1b}}],NoGravity:1b,Invisible:1b,Marker:1b}] ElectricEssence 0
+execute at @e[type=leash_knot,tag=essence-absorber-leash] positioned ~ ~.5 ~ run scoreboard players set @e[tag=essence-absorber,type=minecraft:armor_stand,limit=1,distance=..1,nbt={ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Damage:1561,Unbreakable:1b}}],NoGravity:1b,Invisible:1b,Marker:1b}] SpaceEssence 0
+execute at @e[type=leash_knot,tag=essence-absorber-leash] positioned ~ ~.5 ~ run scoreboard players set @e[tag=essence-absorber,type=minecraft:armor_stand,limit=1,distance=..1,nbt={ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Damage:1561,Unbreakable:1b}}],NoGravity:1b,Invisible:1b,Marker:1b}] DeathEssence 0
+
+execute as @e[type=leash_knot,tag=essence-absorber-leash] run kill @s

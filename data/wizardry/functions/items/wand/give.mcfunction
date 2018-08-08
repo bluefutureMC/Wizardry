@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick{Damage:25,Unbreakable:1b,display:{Name:"[{\"text\":\"Wizard's Wand\",\"color\":\"light_purple\",\"italic\":false}]"},HideFlags:63} 1

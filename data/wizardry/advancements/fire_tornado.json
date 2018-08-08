@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Unusual Weather"
+        },
+        "description": {
+            "text": "Use your magic spells to summon a fire tornado"
+        },
+        "icon": {
+            "item": "minecraft:diamond_hoe",
+            "nbt": "{Damage:1557,Unbreakable:1b}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "spell_heavy_fire": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "spell_heavy_fire"
+        ]
+    ],
+    "parent": "wizardry:wand"
+}

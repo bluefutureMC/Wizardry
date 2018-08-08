@@ -1,0 +1,1 @@
+function wizardry:items/wand/main

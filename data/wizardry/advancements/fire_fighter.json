@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Fire Fighter"
+        },
+        "description": {
+            "text": "Use your magic spells to shoot 100 water splashs"
+        },
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "spell_water": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "spell_water"
+        ]
+    ],
+    "parent": "wizardry:scuba_breath"
+}

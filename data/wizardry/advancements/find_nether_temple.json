@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "A Withered Temple"
+        },
+        "description": {
+            "text": "Descover the acient nether temple"
+        },
+        "icon": {
+            "item": "minecraft:red_nether_bricks"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "find_nether_temple": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "find_nether_temple"
+        ]
+    ],
+    "parent": "wizardry:essence_absorber"
+}

@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Impossible Quest"
+        },
+        "description": {
+            "text": "Overload one of your essence containers"
+        },
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:healing\"}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "cheat_essence": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "cheat_essence"
+        ]
+    ],
+    "rewards": {
+        "experience": 1000000
+    },
+    "parent": "wizardry:full_essence"
+}
