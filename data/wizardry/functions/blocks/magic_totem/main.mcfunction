@@ -1,0 +1,1 @@
+execute as @e[tag=magic-totem] run data merge entity @s {Fire:100s}
