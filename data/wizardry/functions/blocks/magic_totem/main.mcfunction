@@ -1,7 +1,15 @@
-#Block lighting
-execute as @e[tag=magic-totem] run data merge entity @s {Fire:100s}
-
 #Eye particles
+
+#Score initializers
+scoreboard players add @s FireEssence 0
+scoreboard players add @s WaterEssence 0
+scoreboard players add @s EarthEssence 0
+scoreboard players add @s AirEssence 0
+scoreboard players add @s ElectricEssence 0
+scoreboard players add @s IceEssence 0
+scoreboard players add @s LifeEssence 0
+scoreboard players add @s SpaceEssence 0
+scoreboard players add @s DeathEssence 0
 
 #Essence transfer
 execute if score @s FireEssence matches 1.. if entity @a[distance=..7,scores={FireEssence=..49}] run summon minecraft:armor_stand ~ ~-1.1 ~ {Small:1b,Marker:1b,Invisible:1b,NoGravity:1b,Tags:[totem-essence-node,totem-fire-node,wizardry-entity]}

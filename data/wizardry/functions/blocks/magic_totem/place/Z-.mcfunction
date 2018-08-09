@@ -1,0 +1,2 @@
+#Block handler
+execute align xyz run summon minecraft:armor_stand ~.5 ~ ~.5 {Rotation:[180.0f,0.0f],Tags:[magic-totem,wizardry-entity],ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Damage:1540,Unbreakable:1b}}],NoGravity:1b,Invisible:1b,Small:1b}
