@@ -1,4 +1,22 @@
 #Eye particles
+execute at @e[tag=magic-totem,scores={FireEssence=1..}] run particle minecraft:dust 1 0 0 1 ^-.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={FireEssence=1..}] run particle minecraft:dust 1 0 0 1 ^.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={WaterEssence=1..}] run particle minecraft:dust 0 0 1 1 ^-.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={WaterEssence=1..}] run particle minecraft:dust 0 0 1 1 ^.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={EarthEssence=1..}] run particle minecraft:dust 0 1 0 1 ^-.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={EarthEssence=1..}] run particle minecraft:dust 0 1 0 1 ^.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={AirEssence=1..}] run particle minecraft:dust 1 1 1 1 ^-.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={AirEssence=1..}] run particle minecraft:dust 1 1 1 1 ^.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={ElectricEssence=1..}] run particle minecraft:dust 1 1 0 1 ^-.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={ElectricEssence=1..}] run particle minecraft:dust 1 1 0 1 ^.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={IceEssence=1..}] run particle minecraft:dust 0.7 0.7 1 1 ^-.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={IceEssence=1..}] run particle minecraft:dust 0.7 0.7 1 1 ^.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={LifeEssence=1..}] run particle minecraft:dust 1 0.5 0.5 1 ^-.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={LifeEssence=1..}] run particle minecraft:dust 1 0.5 0.5 1 ^.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={SpaceEssence=1..}] run particle minecraft:dust 1 0 1 1 ^-.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={SpaceEssence=1..}] run particle minecraft:dust 1 0 1 1 ^.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={DeathEssence=1..}] run particle minecraft:dust 0 0 0 1 ^-.1 ^.5 ^0.1 0 0 0 0.5 0
+execute at @e[tag=magic-totem,scores={DeathEssence=1..}] run particle minecraft:dust 0 0 0 1 ^.1 ^.5 ^0.1 0 0 0 0.5 0
 
 #Score initializers
 scoreboard players add @s FireEssence 0
