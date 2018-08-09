@@ -1,1 +1,1 @@
-give @s minecraft:player_head{SkullOwner:"Blue_future"} 1
+give @s minecraft:player_head{display:{Name:"{\"text\":\"Magic Totem\",\"color\":\"gold\",\"italic\":false}"},SkullOwner:{Id:"f71b2f87-8dbe-4f77-8898-54bfdc94dbb9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMDgyMThjZTU1ZjE1NjhkMmI4M2JkOWI4MDgzZjIyMGFmMTc4MjEzZmMxYTE5NmQzYTYxMDg4YzFlYzMyYSJ9fX0="}]}}} 1
