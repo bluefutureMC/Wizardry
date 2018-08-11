@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "#$#",
+      "###",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:acacia_wood"
+      },
+      "$": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "result": {
+      "item": "minecraft:wooden_sword",
+      "count": 4
+    }
+  }
