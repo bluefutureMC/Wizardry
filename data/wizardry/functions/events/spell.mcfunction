@@ -15,8 +15,9 @@ execute as @e[tag=flame] at @s run tp @s ^ ^ ^1
 execute at @e[tag=flame] as @e[tag=!flame,distance=..1] run data merge entity @s {Fire:200s}
 execute at @e[tag=flame] at @a[gamemode=survival,distance=..1] run summon arrow ~ ~2.1 ~ {damage:0d,life:1199s,Fire:1000s}
 execute at @e[tag=flame] at @a[gamemode=adventure,distance=..1] run summon arrow ~ ~2.1 ~ {damage:0d,life:1199s,Fire:1000s}
-execute at @e[tag=flame] positioned ~ ~ ~ unless block ~ ~ ~ #wizardry:noclip run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:fire replace #wizardry:noclip
-execute as @e[tag=flame] at @s positioned ~ ~ ~ unless block ~ ~ ~ #wizardry:noclip run kill @s
+execute at @e[tag=flame] unless block ~ ~ ~ #wizardry:noclip run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:fire replace #wizardry:noclip
+execute as @e[tag=flame] at @s unless block ~ ~ ~ #wizardry:noclip run kill @s
+execute as @e[tag=flame] at @s if block ~ ~ ~ minecraft:water run kill @s
 
 execute at @e[tag=water-burst] run particle minecraft:splash ~ ~ ~ 0 0 0 0.03 50
 execute as @e[tag=water-burst] at @s run tp @s ^ ^ ^1
@@ -40,6 +41,8 @@ execute at @e[tag=water-burst] positioned ~ ~1 ~ unless block ~ ~ ~ #wizardry:no
 execute at @e[tag=water-burst] positioned ~ ~1 ~ unless block ~ ~ ~ #wizardry:noclip run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:cobblestone replace minecraft:lava[level=15]
 execute as @e[tag=water-burst] at @s positioned ~ ~1 ~ unless block ~ ~ ~ #wizardry:noclip run kill @s
 execute as @e[tag=water-burst] run data merge entity @s {Fire:-10s}
+execute as @e[tag=water-burst] at @s as @e[type=blaze,distance=..1.3,limit=1] run function wizardry:utility/damage1
+execute as @e[tag=water-burst] at @s if entity @e[type=blaze,distance=..1.3,limit=1] run kill @s
 
 scoreboard players add @e[tag=drill] WizardryCooldown 1
 execute at @e[tag=drill] run particle minecraft:explosion ~ ~ ~ 0 0 0 0.5 1

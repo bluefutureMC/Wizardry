@@ -1,5 +1,6 @@
 #Block tag removers
 tag @a[scores={WizardryPlace=..0}] remove block-essence-absorber
+tag @a[scores={WizardryPlace=..0}] remove block-magic-totem
 
 #Block definers
 tag @a[nbt={SelectedItem:{id:"minecraft:player_head",tag:{display:{Name:"[{\"text\":\"Essence Absorber\",\"color\":\"dark_purple\",\"italic\":false}]"},SkullOwner:{Id:"5e6f5493-bf89-45bf-b761-755a98879f94",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI1Y2ViNWQzZDc1N2FiOTU5MjZmOGZhMjRjYTNmZjM4YzQxNmFjNGM1ODY2N2RlMzc5M2ZmYWFhYjI5In19fQ=="}]}}}}}] add block-essence-absorber

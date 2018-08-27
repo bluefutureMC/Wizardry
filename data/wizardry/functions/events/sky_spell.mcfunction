@@ -10,6 +10,9 @@ execute as @a[x_rotation=-90,tag=wand-death,scores={WizardryWand=1..,DeathEssenc
 execute as @a[x_rotation=-90,tag=wand-space,scores={WizardryWand=1..,SpaceEssence=50..}] at @s run function wizardry:items/wand/sky_spells/space
 
 #Ticker
+scoreboard players add @e[tag=fire-rain] WizardryCooldown 1
+execute as @e[tag=fire-rain,scores={WizardryCooldown=100..}] run kill @s
+
 scoreboard players add @e[tag=frozen-shield] WizardryCooldown 1
 execute at @e[tag=frozen-shield,scores={WizardryCooldown=100..}] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:air replace minecraft:ice
 execute as @e[tag=frozen-shield,scores={WizardryCooldown=100..}] run kill @s
